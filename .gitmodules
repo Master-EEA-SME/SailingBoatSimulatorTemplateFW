@@ -1,0 +1,3 @@
+[submodule "rtl/IP/Simulator"]
+	path = rtl/IP/Simulator
+	url = https://github.com/Master-EEA-SME/SailingBoatSimulatorFW
