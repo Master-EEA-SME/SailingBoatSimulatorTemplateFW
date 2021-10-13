@@ -1,6 +1,8 @@
 # Simulator Template
 Dans ce dépôt vous allez trouver un projet modèle pour la carte DE0-Nano qui intègre le simulateur du voilier.
-
+## Requirements
+- Carte DE0-Nano
+- Module FTDI GT1125 (ou autre module qui permet de convertir USB &rarr; UART)
 ## Getting started
 - A l'aide de Quartus, ouvrez le projet **proj_sim.qsf** qui se trouve dans **rtl/proj_sim**. 
 - Compilez le projet sans rien toucher au code.
