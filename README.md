@@ -4,6 +4,14 @@ Dans ce dépôt vous allez trouver un projet modèle pour la carte DE0-Nano qui 
 - Carte DE0-Nano
 - Module FTDI GT1125 (ou autre module qui permet de convertir USB &rarr; UART)
 ## Getting started
+Clonez le dépôt.
+```
+$ git clone https://github.com/Master-EEA-SME/SailingBoatSimulatorTemplateFW
+Cloning into 'SailingBoatSimulatorTemplateFW'...
+$ git submodule update --init --recursive
+Submodule 'rtl/IP/Simulator' (https://github.com/Master-EEA-SME/SailingBoatSimulatorFW) registered for path 'rtl/IP/Simulator'
+...
+```
 - A l'aide de Quartus, ouvrez le projet **proj_sim.qsf** qui se trouve dans **rtl/proj_sim**. 
 - Compilez le projet sans rien toucher au code.
 - Faites les connection suivantes entre le convertisseur UART et la carte DE0 Nano
